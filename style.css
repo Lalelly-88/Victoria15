@@ -205,60 +205,6 @@ p {
   font-size: 1.3rem; /* Tamaño del texto de los valores */
   margin-bottom: 1.5rem;
   }
-
-
-@keyframes imagenes-desde-derecha {
-  0% {
-      transform: translateX(100%); /* Comienza desde la derecha */
-  }
-  100% {
-      transform: translateX(0); /* Llega a su posición final */
-  }
-}
-
-/* Animaciones para las imágenes que aparecen desde la izquierda y la derecha */
-@keyframes imagenes-desde-izquierda {
-  0% {
-    transform: translateX(-100%); /* Comienza desde la izquierda */
-  }
-  100% {
-    transform: translateX(0); /* Llega a su posición final */
-  }
-  }
-@keyframes imagenes-desde-derecha {
-  0% {
-    transform: translateX(100%); /* Comienza desde la derecha */
-    }
-  100% {
-    transform: translateX(0); /* Llega a su posición final */
-    }
-}
-
-  /* Contenedores para imágenes a la izquierda y derecha */
-.imagenes-izquierda {
-  display: flex;
-  flex-direction: column; /* Colocar imágenes una debajo de la otra */
-  justify-content: center; /* Centrar verticalmente */
-  align-items: flex-start; /* Mantenerse en el lado izquierdo */
-  animation: imagenes-desde-izquierda 1s ease-in-out; /* Aplicar la animación */
-  float: left; /* Flotar a la izquierda */
-  margin-right: 2rem;
-}
-.imagenes-derecha {
-  display: flex;
-  flex-direction: column; /* Colocar imágenes una debajo de la otra */
-  justify-content: center; /* Centrar verticalmente */
-  align-items: flex-end; /* Mantenerse en el lado derecho */
-  animation: imagenes-desde-derecha 1.5s ease-in-out; /* Aplicar la animación */
-  float: right; /* Flotar a la derecha */
-}
-/* Imágenes con tamaño y espacio */
-.imagen {
-  width: 100px; /* Ancho de las imágenes */
-  height: auto; /* Mantener proporciones */
-
-}
-
 /* Estilo para la sección de regalos */
 .gif{
 margin-bottom: 1.5rem;
