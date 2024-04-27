@@ -23,7 +23,7 @@ body{
   display: flex;
   justify-content: center; /* Centra horizontalmente */
   align-items: center;   /* Centra verticalmente */
-    align-content: center
+
 }
 
 .modal-content {
