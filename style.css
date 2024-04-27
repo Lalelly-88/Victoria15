@@ -12,6 +12,7 @@ body{
   display: flex;
   align-content: center;
   position: fixed;
+  align-content: space-around;
   top: 0;
   left: 0;
   width: 100%;
