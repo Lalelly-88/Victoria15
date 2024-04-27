@@ -35,7 +35,6 @@ body{
   border: none !important; /* Elimina el borde */
   background: transparent !important; /* Fondo transparente para quitar el fondo blanco */
   font-family: 'Roboto', sans-serif; /* Fuente para párrafos */
-    align-content: center
 }
 
 h1, h2, h3 {
