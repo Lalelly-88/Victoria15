@@ -648,7 +648,7 @@ section.portada::before {
 }
 
 section.portada::after {
-  background-image: url('../img/curvas01.svg');
+  background-image: url('assets/christmas-background-with-pastel-bokeh-lights-stars-design.jpg');
   position: absolute;
   content: '';
   background-repeat: no-repeat;
@@ -2149,7 +2149,7 @@ section.portada::before {
 }
 
 section.portada::after {
-  background-image: url('../img/curvas01.svg');
+  background-image: url('assets/christmas-background-with-pastel-bokeh-lights-stars-design.jpg');
   position: absolute;
   content: '';
   background-repeat: no-repeat;
