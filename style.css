@@ -74,6 +74,22 @@ p {
   border-color: #D1A4F8; /* Color del borde en hover */
 }
 
+.btn-welcome2 {
+  margin-top: 1rem;
+  background-color: #E5C5FF !important; /* Fondo del botón */
+  color: #340061; /* Color de la tipografía */
+  border: 1rem solid #D1A4F8; /* Borde del botón */
+  border-radius: 15px; /* Bordes redondeados */
+  padding: 10px 20px; /* Tamaño del botón */
+  transition: all 0.3s ease; /* Suavizar las transiciones */
+}
+
+.btn-welcome2:hover {
+  background-color: #D1A4F8 !important; /* Color en hover */
+  color: white; /* Color del texto en hover */
+  border-color: #D1A4F8; /* Color del borde en hover */
+}
+
 .adorno-estrellas {
   width: 40%; /* Tamaño del adorno */
 
